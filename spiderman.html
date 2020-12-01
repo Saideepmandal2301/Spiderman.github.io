@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <!-- <link rel="stylesheet" href="spiderman.css"> -->
+</head>
+<body>
+	<style>
+		*{ margin: 0; padding: 0;}
+header{
+    background-image: url('bac.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    transition: all 0.5s ease;
+}
+.mainheader{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    width: 70%;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    font-family: cursive;
+    color: red;
+    font-weight: 900;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+}
+nav a:hover{
+    text-decoration: none;
+    font-family: cursive;
+    color: red;
+    font-weight: 900;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    border-bottom: 3px solid red;
+    transition: 0.1s all linear;
+}
+main{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.leftside h2{
+    font-family: cursive;
+    font-weight: 600;
+    color: red;
+    text-transform: capitalize;
+}
+.leftside h1{
+    font-family: cursive;
+    font-weight: 900;
+    color: red;
+    animation: color_change 1s linear infinite;
+}
+@keyframes color_change{
+    0%{color: gray;}
+    50%{color: white;}
+    100%{color: red;}
+}
+.leftside h3{
+    font-family: cursive;
+    font-weight: 300;
+    color: red;
+    text-transform: capitalize;
+}
+#btn1{
+    text-decoration: none;
+    font-family: cursive;
+    padding: 10px 20px;
+    margin-right: 10px;
+    color: white;
+    background-color: black;
+    border: 3px solid white;
+    border-radius: 6px;
+    text-transform: capitalize;
+    /* margin-bottom: 10px; */
+}
+#btn1:hover{
+    text-decoration: none;
+    font-family: cursive;
+    padding: 10px 20px;
+    margin-right: 10px;
+    color: white;
+    background-color: red;
+    border: 3px solid white;
+    border-radius: 6px;
+    text-transform: capitalize;
+}
+#btn2{
+    text-decoration: none;
+    font-family: cursive;
+    padding: 10px 20px;
+    margin-right: 10px;
+    color: white;
+    background-color: red;
+    border: 3px solid white;
+    border-radius: 6px;
+    text-transform: capitalize;
+}
+#btn2:hover{
+    text-decoration: none;
+    font-family: cursive;
+    padding: 10px 20px;
+    margin-right: 10px;
+    color: white;
+    background-color: black;
+    border: 3px solid white;
+    border-radius: 6px;
+    text-transform: capitalize;
+}
+@media only screen and (max-width: 616px){
+    .leftside h2{
+        font-size: 1.4rem;
+    }
+    .leftside h1{
+        font-size: 1.7rem;
+    }
+    .leftside h3{
+        font-size: 1.1rem;
+    }
+    .leftside{
+        margin-bottom: 30px;
+        margin-left: 15px;
+    }
+}
+@media only screen and (max-width: 576px){
+    .leftside h2{
+        font-size: 1.3rem;
+    }
+    .leftside h1{
+        font-size: 1.6rem;
+    }
+    .leftside h3{
+        font-size: 1.0rem;
+    }
+    .leftside{
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (max-width:564px){
+    .leftside h2{
+        font-size: 1.3rem;
+    }
+    .leftside h1{
+        font-size: 1.6rem;
+    }
+    .leftside h3{
+        font-size: 1.0rem;
+    }
+    .leftside{
+        margin-bottom: 30px;
+    }
+    #btn1{
+        padding: 5px 10px;
+    }
+    
+    #btn1:hover{
+        padding: 5px 10px;
+    }
+    #btn2{
+        padding: 5px 10px;
+    }
+    #btn2:hover{
+        padding: 5px 10px;
+    }
+}
+@media only screen and (max-width:532px){
+    .leftside h2{
+        font-size: 1.3rem;
+    }
+    .leftside h1{
+        font-size: 1.6rem;
+    }
+    .leftside h3{
+        font-size: 1.0rem;
+    }
+    .leftside{
+        margin-bottom: 30px;
+    }
+    #btn1{
+        padding: 3px 6px;
+    }
+    #btn1:hover{
+        padding: 3px 6px;
+    }
+    #btn2{
+        padding: 3px 6px;
+    }
+    #btn2:hover{
+        padding: 3px 6px;
+    }
+}
+	</style>
+    <header>
+        <div class="mainheader">
+        <div class="logo">
+            <img src="Transspider.png" alt="test">
+        </div>
+        <div class="menu">
+            <nav>
+                <a href="#">home</a>
+                <!-- <a href="#">Service</a> -->
+                <a href="C:\Users\SAINATH\Desktop\Desktop\Avengers website\Batman\batman.html" target="_blank">next page</a>
+                <a href="#">more</a>
+            </nav>
+        </div>
+    </div>
+        <main>
+            <div class="leftside">
+                <h2>my favorite marvel avenger</h2>
+                <h1>Spiderman</h1>
+                <h3>hope you guess</h3>
+                <br>
+                <br>
+                <div class="buttons">
+                <a href="#" id="btn1"><i>sign in</i></a>
+                <a href="#" id="btn2"><i>create account</i></a></div>
+            </div>
+            <div class="rightside">
+                <img src="transreal.png" alt="test2">
+            </div>
+        </main>
+    </header>
+</body>
+</html>
